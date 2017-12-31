@@ -1,5 +1,6 @@
 # hypr9boost
 Boost for vehicles, purchasable and usable by everyone.
+This only works with ESX.
 
 Run the following query to add nitro or add it yourself.
 ```
