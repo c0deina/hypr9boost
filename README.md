@@ -9,3 +9,5 @@ INSERT INTO `items` (name, label) VALUES
 
 If you want to change values of how much the turbo should do change the following in client.lua
 Line 37, change 80.0 to whatever you want.
+
+If you don't want to keep the 3 second delay just comment the line 42.
