@@ -11,7 +11,7 @@ local Keys = {
 }
 ESX              = nil
 local PlayerData = {}
-local nitroActivado = true
+local nitroActivado = false
 
 Citizen.CreateThread(function()
 	while ESX == nil do
@@ -35,7 +35,7 @@ Citizen.CreateThread(function()
 
         Citizen.Wait(0)
 		local force = 80.0
-        local ped = GetPlayerPed(-1)
+        	local ped = GetPlayerPed(-1)
 		local playerVeh = GetVehiclePedIsIn(ped, false)
 	
 		if IsControlPressed(1, 38) and nitroActivado then
